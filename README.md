@@ -17,10 +17,12 @@
 > 📍 Redmond, WA (originally 🇨🇿)
 > 🎓 Class of ’29 · University of Washington Bothell
 > 📚 Computer Engineering
+> 🦾 Part of @TrickfireRobotics
 ```
 
 ```
-> 🌎 Languages : Java · Bash · GDScript · C#
+> 🌎 Languages : Java · Bash · Python
+> 💻 Software  : ROS · Gazebo · Docker
 > 📦 Engines   : Godot · GameMaker · Unity
 > 💻 OS        : macOS
 ```
