@@ -16,41 +16,13 @@
 ```
 > 📍 Redmond, WA  ·  originally 🇨🇿
 > 🎓 Class of '29  ·  University of Washington Bothell  ·  Computer Engineering
-> 🦾 Sim team lead @TrickfireRobotics
+> 🦾 Simulation team lead @TrickfireRobotics
 >
 > 🌎 Languages  :  Java  ·  Python  ·  Bash
 > 📦 Engines    :  Godot  ·  GameMaker  ·  Unity  ·  libGDX
 > 🛠️ Tools      :  ROS2  ·  Gazebo  ·  Docker
 > 🖥️ OS         :  macOS
 ```
-
-<div align="center">
-<pre>
-———————————— ˗ˏˋ ✮ ˎˊ˗ ————————————
-</pre>
-</div>
-
-<div align="center">
-
-**✦ currently building**
-
-<a href="https://github.com/TrickfireRobotics/gazebo-simulations"><b>gazebo-simulations</b></a><br/>
-<sub>ROS2 · Gazebo sims for TrickFire's rover subsystems · <i>sim team lead</i></sub>
-
-<a href="https://github.com/matejstastny/flaggi"><b>flaggi</b></a><br/>
-<sub>multiplayer capture-the-flag game built in Java from scratch</sub>
-
-<a href="https://github.com/matejstastny/azalea"><b>azalea</b></a><br/>
-<sub>minimal CLI for managing Minecraft modpacks · Python</sub>
-
-<a href="https://github.com/matejstastny/dotfiles"><b>dotfiles</b></a><br/>
-<sub>obsessively maintained macOS config files · 30+ commits and still going</sub>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=matejstastny&show_icons=true&theme=catppuccin_mocha&hide_border=true&count_private=true&hide_title=true" height="140"/>
-
-</div>
 
 <div align="center">
 <pre>
