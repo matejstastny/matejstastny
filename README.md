@@ -17,7 +17,7 @@
 > 📍 Redmond, WA (originally 🇨🇿)
 > 🎓 Class of ’29 · University of Washington Bothell
 > 📚 Computer Engineering
-> 🦾 Part of @TrickfireRobotics
+> 🦾 Lead of simulations team @TrickfireRobotics
 ```
 
 ```
