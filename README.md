@@ -30,34 +30,27 @@
 </pre>
 </div>
 
+<div align="center">
+
 **✦ currently building**
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/TrickfireRobotics/gazebo-simulations"><b>gazebo-simulations</b></a><br/>
-      <sub>ROS2 · Gazebo sims for TrickFire's rover subsystems · <i>sim team lead</i></sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/matejstastny/flaggi"><b>flaggi</b></a><br/>
-      <sub>multiplayer capture-the-flag game built in Java from scratch</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/matejstastny/azalea"><b>azalea</b></a><br/>
-      <sub>minimal CLI for managing Minecraft modpacks · Python</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/matejstastny/dotfiles"><b>dotfiles</b></a><br/>
-      <sub>obsessively maintained macOS config files · 30+ commits and still going</sub>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/TrickfireRobotics/gazebo-simulations"><b>gazebo-simulations</b></a><br/>
+<sub>ROS2 · Gazebo sims for TrickFire's rover subsystems · <i>sim team lead</i></sub>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=matejstastny&show_icons=true&theme=catppuccin_mocha&hide_border=true&count_private=true&hide_title=true" height="140"/>
-</p>
+<a href="https://github.com/matejstastny/flaggi"><b>flaggi</b></a><br/>
+<sub>multiplayer capture-the-flag game built in Java from scratch</sub>
+
+<a href="https://github.com/matejstastny/azalea"><b>azalea</b></a><br/>
+<sub>minimal CLI for managing Minecraft modpacks · Python</sub>
+
+<a href="https://github.com/matejstastny/dotfiles"><b>dotfiles</b></a><br/>
+<sub>obsessively maintained macOS config files · 30+ commits and still going</sub>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=matejstastny&show_icons=true&theme=catppuccin_mocha&hide_border=true&count_private=true&hide_title=true" height="140"/>
+
+</div>
 
 <div align="center">
 <pre>
