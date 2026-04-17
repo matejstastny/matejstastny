@@ -14,9 +14,8 @@
 [//]: # "Link shields -> https://github.com/inttter/md-badges#-social-media"
 
 ```
-> 📍 Redmond, WA  ·  originally 🇨🇿
-> 🎓 Class of '29  ·  University of Washington Bothell  ·  Computer Engineering
-> 🦾 Simulation team lead @TrickfireRobotics
+> 🎓 Class of '29  @University of Washington Bothell -> Computer Engineering
+> 🦾 Simulation team lead and part of drivebase team @TrickfireRobotics
 >
 > 🌎 Languages  :  Java  ·  Python  ·  Bash
 > 📦 Engines    :  Godot  ·  GameMaker  ·  Unity  ·  libGDX
