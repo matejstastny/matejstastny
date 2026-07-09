@@ -20,7 +20,7 @@
 > 🌎 Languages  :  Java  ·  Python  ·  Bash
 > 📦 Engines    :  Godot  ·  GameMaker  ·  Unity  ·  libGDX
 > 🛠️ Tools      :  ROS2  ·  Gazebo  ·  Docker
-> 🖥️ OS         :  MacOS  ·  Ubuntu
+> 🖥️ OS         :  Linux Fedora Asahi Remix
 ```
 
 <div align="center">
