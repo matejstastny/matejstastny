@@ -17,7 +17,7 @@
 > 🎓 Class of '29  @University of Washington Bothell -> Computer Engineering
 > 🦾 Simulation team lead and part of drivebase team @TrickfireRobotics
 >
-> 🌎 Languages  :  Java  ·  Python  ·  Bash
+> 🌎 Languages  :  Python  ·  Typescript  ·  Bash  ·  Java
 > 📦 Engines    :  Godot  ·  GameMaker  ·  Unity  ·  libGDX
 > 🛠️ Tools      :  ROS2  ·  Gazebo  ·  Docker
 > 🖥️ OS         :  Linux Fedora Asahi Remix
