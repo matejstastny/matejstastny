@@ -1,6 +1,14 @@
+[//]: # "Main header -> https://patorjk.com/software/taag/#p=testall&h=3&f=Bloody&t=Hi%2C%20I'm%20Matej"
+
 <div align="center">
-  <h1><a href="https://elara.boo">Ellie Stastna</a></h1>
-  <p>simulation, tooling &amp; infrastructure</p>
+<pre>
+      _
+  ___| | __ _ _ __ __ _
+ / _ | |/ _` | '__/ _` |
+|  __| | (_| | | | (_| |
+ \___|_|\__,_|_|  \__,_|
+
+</pre>
 </div>
 
 [//]: # "Link shields -> https://github.com/inttter/md-badges#-social-media"
@@ -26,7 +34,5 @@
 </p>
 
 <div align="center">
-<h2>
-<a href="https://elara.boo">https://elara.boo</a>
-</h2>
+<h2>-> <a href="https://elara.boo">https://elara.boo</a> <-</h2>
 </div>
