@@ -1,18 +1,18 @@
 [//]: # "Main header -> https://patorjk.com/software/taag/#p=testall&h=3&f=Bloody&t=Hi%2C%20I'm%20Matej"
 
-<div align="center">
+<!-- <div align="center">
 <pre>
 ▄▄▄▄▄ ▄▄     ▄▄▄  ▄▄▄▄   ▄▄▄ 
 ██▄▄  ██    ██▀██ ██▄█▄ ██▀██
 ██▄▄▄ ██▄▄▄ ██▀██ ██ ██ ██▀██
 </pre>
-</div>
+</div> -->
 
 [//]: # "Link shields -> https://github.com/inttter/md-badges#-social-media"
 
 ```
 > 🎓 Class of '29  @University of Washington Bothell -> Computer Engineering
-> 🦾 Simulation team lead and part of drivebase team @TrickfireRobotics
+> 🦾 Simulation team lead & Internal Tools team lead @TrickfireRobotics
 >
 > 🌎 Languages  :  Python  ·  Typescript  ·  Bash  ·  Java
 > 📦 Engines    :  Godot  ·  GameMaker  ·  Unity  ·  libGDX
