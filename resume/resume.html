@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Matej Stastny</title>
+    <meta name="description" content="Computer engineering undergraduate leading simulation and internal tooling for a ~50-member robotics team, and technical strategy for a student-run industry outreach club. Builds in C++, Python, and TypeScript, across simulation, infrastructure, and full-stack web.">
+  <meta name="viewport" content="width=device-width, minimal-ui">
+  <meta name="resume-version" content="">
+  <style>body {
+  font-family: "Times New Roman", Times, serif;
+  /* 13px to 15px looks good */
+  font-size: 15px;
+  /* 1.38, 1.4, or 1.5 looks good */
+  line-height: 1.4;
+  margin: 0 auto;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* when generating the resume as a website or as headless, this will keep a nice readable margin in place */
+#resume {
+  margin: 0.4in;
+}
+
+/* use-case is when a user generates their resume as a website, saves their website as a PDF, and uses their browser to manage the margins during save */
+@media print {
+  #resume {
+    margin: 0;
+  }
+}
+
+/* Page margins for PDF export (Puppeteer / print). Without this, the export defaults to ~0 margin. */
+@page {
+  margin: 0.5in;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 2px;
+}
+
+a {
+  color: black;
+  /* it's less likely someone will click the links; removing underline to reduce noise */
+  text-decoration: none;
+}
+
+.display-none {
+  /* simply turns off the display in the div */
+  display: none;
+}
+
+.basics {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.basics-name {
+  font-size: 33px;
+  font-weight: normal;
+  margin: 0 0 2px 0;
+  line-height: 1.1;
+}
+
+.basics-contact-row {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.basics-contact-row:empty {
+  display: none;
+}
+
+.basics-contact-item + .basics-contact-item::before {
+  content: "·";
+  margin: 0 6px;
+}
+
+.section-block {
+  display: block;
+  width: 100%;
+}
+
+.section-name {
+  color: #004687;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.section-line {
+  border-color: none;
+  border-style: hidden;
+  border-width: 1px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.section-intro-line {
+  border-color: #004687;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+#work-block .block-header,
+#volunteer .block-header {
+  display: flex;
+  align-items: center;
+}
+
+.block-header .date {
+  font-weight: normal;
+  font-style: italic;
+  color: #555;
+  text-align: right;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.block-header .organization {
+  font-weight: bold;
+  text-align: left;
+}
+
+#work-block .block-header .organization {
+  font-weight: normal;
+  font-style: italic;
+  color: #555;
+}
+
+.block-header .title {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+
+#work-block .block-header .organization::before,
+#volunteer .block-header .organization::before {
+  content: "\00a0|\00a0";
+  font-weight: normal;
+}
+
+.section-content {
+  display: block;
+  line-height: 1.15;
+  padding-left: 6px;
+}
+
+.section-content ul {
+  padding-left: 20px;
+  margin-top: 3px;
+  list-style-type: circle;
+}
+
+.highlights li {
+  margin-bottom: 0;
+}
+
+.job-meta {
+  font-style: italic;
+  color: #555;
+}
+
+.job-summary {
+  margin-top: 3px;
+}
+
+.section-content .title {
+  font-weight: bold;
+}
+
+.section-content .date {
+  float: right;
+}
+
+.section-content .separator {
+  height: 4px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.job-block {
+  page-break-inside: avoid;
+}
+</style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="resume">
+        <div class="basics">
+          <h1 class="basics-name">Matej Stastny</h1>
+
+          <div class="basics-contact-row">
+              <span class="basics-contact-item"><a href="mailto:matysta@outlook.com">matysta@outlook.com</a></span>
+              <span class="basics-contact-item"><a href="tel:+1 (206) 609-8391">+1&nbsp;(206)&nbsp;609&#8209;8391</a></span>
+          </div>
+
+              <div class="basics-contact-row">
+                    <span class="basics-contact-item"><a href="https://github.com/matejstastny">github.com/matejstastny</a></span>
+                    <span class="basics-contact-item"><a href="https://www.linkedin.com/in/matejstastny/">linkedin.com/in/matejstastny</a></span>
+              </div>
+        </div>
+        <div id="summary-block" class="section-block">
+          <div class="section-content">
+            <span>Computer engineering undergraduate leading simulation and internal tooling for a ~50-member robotics team, and technical strategy for a student-run industry outreach club. Builds in C++, Python, and TypeScript, across simulation, infrastructure, and full-stack web.</span>
+          </div>
+        </div>
+        <div class="section-line"></div>
+        <div id="work-block" class="section-block">
+          <div class="section-intro">
+            <div class="section-name">
+              <span>Experience</span>
+            </div>
+            <div class="section-intro-line"></div>
+          </div>
+          <div class="section-content">
+              <div class="job-block">
+                <div class="block-header">
+                  <span class="title">Technical Lead, Founding Officer</span>
+                  <span class="date">
+                    <time datetime="2026-06">Jun 2026</time> &mdash;
+                    Present
+                  </span>
+                </div>
+
+                <div class="job-meta">Industry Project Lab (IPL), University of Washington Bothell</div>
+
+                <div class="display-none">
+                </div>
+
+                  <div class="job-summary">Student club connecting UW Bothell students, including those underrepresented in STEM, with real industry projects and career-readiness opportunities.</div>
+
+                  <ul class="highlights">
+                      <li>Founding officer, invited by the club&#x27;s founder to help launch and shape the organization from its first summer.</li>
+                      <li>As Technical Lead, scope and communicate the technical feasibility of club and student projects to the board, help student teams work through technical problems, and manage the club&#x27;s GitHub and repository documentation.</li>
+                      <li>Help organize outreach to companies for club-wide, project-based partnerships (informal micro-internships), and represent the club at community events such as Seattle Geek Girl Con.</li>
+                  </ul>
+                  <div class="separator"></div>
+              </div>
+              <div class="job-block">
+                <div class="block-header">
+                  <span class="title">STARS Program Assistant</span>
+                  <span class="date">
+                    <time datetime="2026-04">Apr 2026</time> &mdash;
+                    Present
+                  </span>
+                </div>
+
+                <div class="job-meta">University of Washington Bothell</div>
+
+                <div class="display-none">
+                </div>
+
+
+                  <ul class="highlights">
+                      <li>Support STARS Program operations and student engagement through administrative and scheduling tasks.</li>
+                      <li>Collaborate with campus partners to enhance program effectiveness and expand its reach.</li>
+                      <li>Provide guidance and resources to first-generation students, promoting academic success and involvement.</li>
+                  </ul>
+                  <div class="separator"></div>
+              </div>
+              <div class="job-block">
+                <div class="block-header">
+                  <span class="title">Simulation Team Lead &amp; Internal Tools Team Lead</span>
+                  <span class="date">
+                    <time datetime="2025-09">Sep 2025</time> &mdash;
+                    Present
+                  </span>
+                </div>
+
+                <div class="job-meta">TrickFire Robotics, University of Washington Bothell</div>
+
+                <div class="display-none">
+                </div>
+
+                  <div class="job-summary">Student engineering team competing in the University Rover Challenge, designing and building a Mars rover.</div>
+
+                  <ul class="highlights">
+                      <li>Youngest person to hold a lead role in the club&#x27;s 10-year history; architected and maintain a full ROS 2 (Gazebo, RViz) simulation environment in C++ and Python with a model-to-simulation pipeline, letting the ~50-member team prototype and test rover systems before physical builds.</li>
+                      <li>Containerized the simulation stack with Docker for reproducible, cross-platform use and administer a dedicated Linux simulation machine.</li>
+                      <li>Lead the Internal Tools team: own the org-wide documentation framework, the production internal dashboard (Next.js, Drizzle, SQLite), the public website, and the attendance Discord bot; support the AK-series motor library (C++) through design and code review.</li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <div class="section-line"></div>
+        <div id="projects" class="section-block">
+          <div class="section-intro">
+            <div class="section-name">
+              <span>Projects</span>
+            </div>
+            <div class="section-intro-line"></div>
+          </div>
+          <div class="section-content">
+            <ul class="highlights">
+                <li>
+                    <span class="title">Homelab Infrastructure: </span>
+                      <span>Run DNS (AdGuard Home, Unbound), a Tailscale subnet router, and a Caddy reverse proxy across the fleet</span>.
+                      <span>Built a custom fleet dashboard in Go and Astro on Prometheus and VictoriaMetrics metrics</span>.
+                      <span>Self-host media serving and automated download pipelines, with a reproducible dev environment managed by mise and CI-style checks</span>.
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-line"></div>
+        <div id="education" class="section-block">
+          <div class="section-intro">
+            <div class="section-name">
+              <span>Education</span>
+            </div>
+            <div class="section-intro-line"></div>
+          </div>
+          <div class="section-content">
+              <div class="block-header">
+                <span class="title">University of Washington Bothell</span>
+                  <span class="date">
+                    Sep 2025 &mdash;
+                    Jun 2029
+                  </span>
+                <div class="">
+                  Bachelor of Science  - Computer Engineering, GPA: 3.85
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="section-line"></div>
+        <div id="awards" class="section-block">
+          <div class="section-intro">
+            <div class="section-name">
+              <span>Awards</span>
+            </div>
+            <div class="section-intro-line"></div>
+          </div>
+          <div class="section-content">
+              <div class="block-header">
+                <span class="title">Dean&#x27;s List, University of Washington Bothell</span>
+              </div>
+                <ul class="highlights">
+                    <li>Autumn 2025 and Spring 2026 quarters</li>
+                </ul>
+                <div class="separator"></div>
+              <div class="block-header">
+                <span class="title">STARS Scholar, University of Washington Bothell</span>
+              </div>
+                <ul class="highlights">
+                    <li>Program supporting first-generation college students</li>
+                </ul>
+          </div>
+        </div>
+        <div class="section-line"></div>
+        <div id="skills" class="section-block">
+          <div class="section-intro">
+            <div class="section-name">
+              <span>Skills and Tech</span>
+            </div>
+            <div class="section-intro-line"></div>
+          </div>
+          <div class="section-content">
+            <ul class="highlights">
+                <li>
+                  <span class="title">Languages:</span>
+                      <span>Python</span>,
+                      <span>C++</span>,
+                      <span>TypeScript</span>,
+                      <span>Go</span>,
+                      <span>Java</span>,
+                      <span>Bash</span>,
+                      <span>Rust</span>.
+                </li>
+                <li>
+                  <span class="title">Robotics &amp; Simulation:</span>
+                      <span>ROS 2</span>,
+                      <span>Gazebo</span>,
+                      <span>RViz</span>,
+                      <span>Project Chrono</span>,
+                      <span>Docker</span>.
+                </li>
+                <li>
+                  <span class="title">Web &amp; Backend:</span>
+                      <span>Next.js</span>,
+                      <span>React</span>,
+                      <span>Drizzle ORM</span>,
+                      <span>SQLite</span>,
+                      <span>Tailwind CSS</span>.
+                </li>
+                <li>
+                  <span class="title">Systems &amp; Tools:</span>
+                      <span>Linux</span>,
+                      <span>Git</span>,
+                      <span>CI/CD</span>,
+                      <span>Tailscale</span>.
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-line"></div>
+    </div>
+  </div>
+</body>
+
+</html>

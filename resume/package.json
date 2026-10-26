@@ -1,0 +1,18 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "resume validate",
+    "export:html": "resume export resume.html --theme straightforward",
+    "export:pdf": "pnpm run export:html && node scripts/print.mjs resume.html resume.pdf",
+    "build": "pnpm run validate && pnpm run export:pdf",
+    "audit": "resume audit --theme straightforward"
+  },
+  "devDependencies": {
+    "jsonresume-theme-straightforward": "^0.5.0",
+    "playwright": "^1.64.1",
+    "resume-cli": "^3.8.3"
+  }
+}

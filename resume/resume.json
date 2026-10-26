@@ -1,0 +1,119 @@
+{
+  "$schema": "https://jsonresume.org/schema/",
+  "basics": {
+    "name": "Matej Stastny",
+    "label": "Computer Engineering Undergraduate",
+    "email": "matysta@outlook.com",
+    "phone": "+1 (206) 609-8391",
+    "location": {
+      "region": "WA",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "matejstastny",
+        "url": "https://github.com/matejstastny"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "matejstastny",
+        "url": "https://www.linkedin.com/in/matejstastny/"
+      }
+    ],
+    "summary": "Computer engineering undergraduate leading simulation and internal tooling for a ~50-member robotics team, and technical strategy for a student-run industry outreach club. Builds in C++, Python, and TypeScript, across simulation, infrastructure, and full-stack web."
+  },
+  "work": [
+    {
+      "name": "Industry Project Lab (IPL), University of Washington Bothell",
+      "position": "Technical Lead, Founding Officer",
+      "startDate": "2026-06",
+      "summary": "Student club connecting UW Bothell students, including those underrepresented in STEM, with real industry projects and career-readiness opportunities.",
+      "highlights": [
+        "Founding officer, invited by the club's founder to help launch and shape the organization from its first summer.",
+        "As Technical Lead, scope and communicate the technical feasibility of club and student projects to the board, help student teams work through technical problems, and manage the club's GitHub and repository documentation.",
+        "Help organize outreach to companies for club-wide, project-based partnerships (informal micro-internships), and represent the club at community events such as Seattle Geek Girl Con."
+      ],
+      "keywords": ["Technical Leadership", "STEM Outreach", "Partnerships", "Project Scoping", "GitHub"]
+    },
+    {
+      "name": "University of Washington Bothell",
+      "position": "STARS Program Assistant",
+      "startDate": "2026-04",
+      "highlights": [
+        "Support STARS Program operations and student engagement through administrative and scheduling tasks.",
+        "Collaborate with campus partners to enhance program effectiveness and expand its reach.",
+        "Provide guidance and resources to first-generation students, promoting academic success and involvement."
+      ]
+    },
+    {
+      "name": "TrickFire Robotics, University of Washington Bothell",
+      "position": "Simulation Team Lead & Internal Tools Team Lead",
+      "startDate": "2025-09",
+      "summary": "Student engineering team competing in the University Rover Challenge, designing and building a Mars rover.",
+      "highlights": [
+        "Youngest person to hold a lead role in the club's 10-year history; architected and maintain a full ROS 2 (Gazebo, RViz) simulation environment in C++ and Python with a model-to-simulation pipeline, letting the ~50-member team prototype and test rover systems before physical builds.",
+        "Containerized the simulation stack with Docker for reproducible, cross-platform use and administer a dedicated Linux simulation machine.",
+        "Lead the Internal Tools team: own the org-wide documentation framework, the production internal dashboard (Next.js, Drizzle, SQLite), the public website, and the attendance Discord bot; support the AK-series motor library (C++) through design and code review."
+      ],
+      "keywords": ["ROS 2", "Simulation", "Gazebo", "C++", "Docker", "Linux", "Next.js", "TypeScript", "Python"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Washington Bothell",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2025-09",
+      "endDate": "2029-06",
+      "score": "3.85",
+      "summary": "Dean's List, Autumn 2025 & Spring 2026. STARS program, for first-generation students."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Homelab Infrastructure",
+      "summary": "A 3-node Raspberry Pi homelab for self-hosted services and infrastructure practice",
+      "startDate": "2026-09",
+      "highlights": [
+        "Run DNS (AdGuard Home, Unbound), a Tailscale subnet router, and a Caddy reverse proxy across the fleet",
+        "Built a custom fleet dashboard in Go and Astro on Prometheus and VictoriaMetrics metrics",
+        "Self-host media serving and automated download pipelines, with a reproducible dev environment managed by mise and CI-style checks"
+      ],
+      "keywords": ["Go", "Astro", "Linux", "Tailscale", "Prometheus", "Networking"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "awarder": "University of Washington Bothell",
+      "highlights": ["Autumn 2025 and Spring 2026 quarters"]
+    },
+    {
+      "title": "STARS Scholar",
+      "awarder": "University of Washington Bothell",
+      "highlights": ["Program supporting first-generation college students"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "C++", "TypeScript", "Go", "Java", "Bash", "Rust"]
+    },
+    {
+      "name": "Robotics & Simulation",
+      "keywords": ["ROS 2", "Gazebo", "RViz", "Project Chrono", "Docker"]
+    },
+    {
+      "name": "Web & Backend",
+      "keywords": ["Next.js", "React", "Drizzle ORM", "SQLite", "Tailwind CSS"]
+    },
+    {
+      "name": "Systems & Tools",
+      "keywords": ["Linux", "Git", "CI/CD", "Tailscale"]
+    }
+  ],
+  "meta": {
+    "theme": "straightforward"
+  }
+}

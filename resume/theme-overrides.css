@@ -1,0 +1,45 @@
+/* Overrides for jsonresume-theme-straightforward: swap the default Times New Roman
+   for a standard ATS-safe sans-serif, and loosen the theme's tight default spacing. */
+
+@page {
+  margin: 0.35in;
+}
+
+body {
+  font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.basics {
+  margin-bottom: 10px;
+}
+
+.section-content {
+  line-height: 1.2;
+}
+
+.section-block {
+  margin-bottom: 1px;
+}
+
+.section-intro-line {
+  margin-bottom: 2px;
+}
+
+.section-line {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+li {
+  margin-bottom: 1px;
+}
+
+.job-summary {
+  margin-top: 1px;
+}
+
+.section-content .separator {
+  height: 4px;
+}

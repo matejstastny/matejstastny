@@ -1,4 +1,1 @@
-# macOS
-.DS_Store
-._*
-*-alias
+**/node_modules
